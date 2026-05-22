@@ -15,9 +15,7 @@ from datetime import datetime
 # CONFIGURATION
 # ============================================================================
 
-APP_PASSWORD = "vera2026"
-
-# Nevada colors
+APP_# Nevada colors
 NV_BLUE = "#003366"  # Nevada blue
 NV_SILVER = "#C0C0C0"  # Silver state
 NV_GOLD = "#FFD700"  # Gold accent
@@ -670,9 +668,6 @@ def main():
     """, unsafe_allow_html=True)
 
     # Authentication
-    if not check_password():
-        return
-
     # Load data
     districts_df = load_districts()
     access_df = load_access_data()
