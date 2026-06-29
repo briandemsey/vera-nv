@@ -15,7 +15,7 @@ from datetime import datetime
 # CONFIGURATION
 # ============================================================================
 
-APP_# Nevada colors
+# Nevada colors
 NV_BLUE = "#003366"  # Nevada blue
 NV_SILVER = "#C0C0C0"  # Silver state
 NV_GOLD = "#FFD700"  # Gold accent
